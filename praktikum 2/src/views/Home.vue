@@ -4,7 +4,8 @@
       <div class="hero-content">
         <h1 class="hero-title">Connect, Discover, and Experience</h1>
         <p class="hero-subtitle">
-          A community event platform designed to bring ideas together. Discover hundreds of events near you.
+          A community event platform designed to bring ideas together. Discover hundreds of events
+          near you.
         </p>
         <div class="hero-action">
           <router-link to="/browse/events" class="btn-primary">Discover Events</router-link>
@@ -22,7 +23,9 @@
         <div class="feature-card">
           <div class="feature-icon">🔍</div>
           <h3>Discover Easily</h3>
-          <p>Find events tailored to your interests using our smart category and location filters.</p>
+          <p>
+            Find events tailored to your interests using our smart category and location filters.
+          </p>
         </div>
 
         <div class="feature-card">
@@ -34,7 +37,9 @@
         <div class="feature-card">
           <div class="feature-icon">📊</div>
           <h3>Host Like a Pro</h3>
-          <p>Manage attendees, track revenue, and scan QR codes with our comprehensive dashboard.</p>
+          <p>
+            Manage attendees, track revenue, and scan QR codes with our comprehensive dashboard.
+          </p>
         </div>
       </div>
     </section>
@@ -88,7 +93,9 @@
   text-decoration: none;
   padding: var(--space-3) var(--space-8);
   border-radius: 12px;
-  transition: transform 0.2s, background-color 0.2s;
+  transition:
+    transform 0.2s,
+    background-color 0.2s;
   /* Make button pop to pass the Squint Test */
   box-shadow: 0 8px 20px rgba(102, 68, 255, 0.3);
 }
@@ -131,12 +138,14 @@
   border-radius: var(--space-4);
   border: 1px solid var(--border-color);
   text-align: center;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
 }
 
 .feature-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.04);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
 }
 
 .feature-icon {

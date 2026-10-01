@@ -18,8 +18,8 @@ const categories = [
   { name: 'Art & Design', icon: '🎨', count: 12 },
   { name: 'Business', icon: '💼', count: 30 },
   { name: 'Health & Wellness', icon: '🧘‍♀️', count: 15 },
-  { name: 'Food & Drink', icon: '🍽️', count: 22 }
-];
+  { name: 'Food & Drink', icon: '🍽️', count: 22 },
+]
 </script>
 
 <style scoped>

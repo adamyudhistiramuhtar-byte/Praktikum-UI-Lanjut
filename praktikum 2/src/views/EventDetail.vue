@@ -14,19 +14,19 @@
 
     <!-- ASYMMETRICAL LAYOUT -->
     <div class="detail-content grid-asymmetric">
-
       <!-- F-PATTERN: Breaking text with Headings & Bullet Points -->
       <div class="main-desc">
         <h2>About This Event</h2>
         <p>
-          Welcome to the biggest web interface development training event of the year!
-          Gatherly is collaborating with the local developer community to host a comprehensive workshop
-          designed specifically to bring together professionals, enthusiasts, and students.
+          Welcome to the biggest web interface development training event of the year! Gatherly is
+          collaborating with the local developer community to host a comprehensive workshop designed
+          specifically to bring together professionals, enthusiasts, and students.
         </p>
         <p>
-          In this session, we will discuss various current industry challenges, dissect the implementation
-          of Single Page Applications (SPA), and practice hands-on Layout System design prioritizing visual hierarchy.
-          You will gain practical insights that can be directly applied to your future projects or career.
+          In this session, we will discuss various current industry challenges, dissect the
+          implementation of Single Page Applications (SPA), and practice hands-on Layout System
+          design prioritizing visual hierarchy. You will gain practical insights that can be
+          directly applied to your future projects or career.
         </p>
 
         <h2>Event Agenda</h2>
@@ -50,7 +50,6 @@
           <p class="spots">Only 12 seats left!</p>
         </div>
       </div>
-
     </div>
   </div>
 </template>
@@ -141,7 +140,7 @@
   padding: var(--space-8);
   border-radius: var(--space-4);
   border: 1px solid var(--border-color);
-  box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
   text-align: center;
 }
 
@@ -151,9 +150,20 @@
   top: 100px;
 }
 
-.ticket-card h3 { font-size: 1.5rem; margin-bottom: var(--space-2); }
-.price { font-size: 2.8rem; font-weight: 800; color: var(--primary); margin-bottom: var(--space-2); }
-.ticket-desc { color: var(--text-muted); margin-bottom: var(--space-6); }
+.ticket-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: var(--space-2);
+}
+.price {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: var(--space-2);
+}
+.ticket-desc {
+  color: var(--text-muted);
+  margin-bottom: var(--space-6);
+}
 
 .btn-register {
   width: 100%;
@@ -166,10 +176,19 @@
   font-weight: 600;
   cursor: pointer;
 }
-.btn-register:hover { background: var(--primary-hover); }
-.spots { margin-top: var(--space-4); color: #e63946; font-weight: 600; font-size: 0.95rem; }
+.btn-register:hover {
+  background: var(--primary-hover);
+}
+.spots {
+  margin-top: var(--space-4);
+  color: #e63946;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
 
 @media (max-width: 900px) {
-  .grid-asymmetric { grid-template-columns: 1fr; }
+  .grid-asymmetric {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

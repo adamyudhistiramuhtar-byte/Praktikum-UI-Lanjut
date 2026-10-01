@@ -69,8 +69,7 @@ onUnmounted(() => {
             class="nav-link"
             :class="{
               active:
-                route.path === menu.path ||
-                (menu.path !== '/' && route.path.startsWith(menu.path)),
+                route.path === menu.path || (menu.path !== '/' && route.path.startsWith(menu.path)),
             }"
           >
             {{ menu.name }}
@@ -223,8 +222,12 @@ onUnmounted(() => {
   transform: translateY(-2px);
 }
 
-.logo-icon path[fill="white"] { fill: var(--primary); }
-.logo-icon path[stroke="#1A1643"] { stroke: var(--text-dark); }
+.logo-icon path[fill='white'] {
+  fill: var(--primary);
+}
+.logo-icon path[stroke='#1A1643'] {
+  stroke: var(--text-dark);
+}
 
 .logo-text {
   font-size: 1.25rem;
@@ -355,13 +358,25 @@ onUnmounted(() => {
 }
 
 @keyframes slideUp {
-  from { opacity: 0; transform: translateX(-50%) translateY(10px); }
-  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
 }
 
 @keyframes slideLeft {
-  from { opacity: 0; transform: translateX(10px); }
-  to { opacity: 1; transform: translateX(0); }
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 /* ==================================
@@ -419,12 +434,20 @@ onUnmounted(() => {
 }
 
 @media (max-width: 900px) {
-  .nav-menu { gap: 0.5rem; }
-  .lang-selector { display: none; }
-  .hamburger-btn { display: flex; }
+  .nav-menu {
+    gap: 0.5rem;
+  }
+  .lang-selector {
+    display: none;
+  }
+  .hamburger-btn {
+    display: flex;
+  }
 }
 
 @media (max-width: 768px) {
-  .nav-menu { display: none; }
+  .nav-menu {
+    display: none;
+  }
 }
 </style>

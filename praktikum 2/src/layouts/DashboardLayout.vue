@@ -1,12 +1,11 @@
 <script setup lang="ts">
-import { RouterView, RouterLink } from 'vue-router';
+import { RouterView, RouterLink } from 'vue-router'
 </script>
 
 <template>
   <!-- RAIL & PANE SYSTEM
        Kerangka khusus untuk kebutuhan produktivitas/pengelolaan aplikasi. -->
   <div class="dashboard-layout">
-
     <!-- RAIL: Navigasi samping yang posisinya terkunci (fixed) -->
     <aside class="dashboard-rail">
       <div class="rail-brand">
@@ -33,7 +32,6 @@ import { RouterView, RouterLink } from 'vue-router';
         <RouterView />
       </div>
     </main>
-
   </div>
 </template>
 
@@ -62,9 +60,12 @@ import { RouterView, RouterLink } from 'vue-router';
   padding: var(--space-6);
   font-size: 1.2rem;
   font-weight: 700;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-.rail-brand a { color: white; text-decoration: none; }
+.rail-brand a {
+  color: white;
+  text-decoration: none;
+}
 
 .rail-nav {
   flex: 1;
@@ -78,15 +79,21 @@ import { RouterView, RouterLink } from 'vue-router';
   color: #a0a0b0;
   text-decoration: none;
   font-weight: 500;
-  transition: background 0.2s, color 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s;
 }
-.rail-link:hover, .rail-link.active {
-  background-color: rgba(255,255,255,0.05);
+.rail-link:hover,
+.rail-link.active {
+  background-color: rgba(255, 255, 255, 0.05);
   color: white;
   border-left: 4px solid var(--primary);
 }
 
-.rail-footer { padding: var(--space-6); border-top: 1px solid rgba(255,255,255,0.1); }
+.rail-footer {
+  padding: var(--space-6);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
 
 /* PANE STYLES */
 .dashboard-pane {
@@ -104,7 +111,10 @@ import { RouterView, RouterLink } from 'vue-router';
   align-items: center;
   border-bottom: 1px solid var(--border-color);
 }
-.pane-header h1 { font-size: 1.5rem; margin: 0; }
+.pane-header h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
 
 .pane-content {
   padding: var(--space-8);

@@ -47,7 +47,10 @@
 </template>
 
 <style scoped>
-.dashboard-overview h2 { margin-bottom: var(--space-6); color: var(--text-main); }
+.dashboard-overview h2 {
+  margin-bottom: var(--space-6);
+  color: var(--text-main);
+}
 
 /* GRID untuk menyusun metrik secara proporsional */
 .metrics-grid {
@@ -62,10 +65,19 @@
   padding: var(--space-6);
   border-radius: var(--space-3);
   border: 1px solid var(--border-color);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
 }
-.metric-card h3 { font-size: 1rem; color: var(--text-muted); margin-bottom: var(--space-2); }
-.metric-value { font-size: 2.2rem; font-weight: 700; color: var(--primary); margin: 0; }
+.metric-card h3 {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-bottom: var(--space-2);
+}
+.metric-value {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0;
+}
 
 /* TABLE STYLES - Mengutamakan kerapian baris untuk Data Density */
 .data-table-container {
@@ -74,16 +86,31 @@
   border-radius: var(--space-3);
   border: 1px solid var(--border-color);
 }
-.data-table-container h3 { margin-bottom: var(--space-4); font-size: 1.2rem; }
+.data-table-container h3 {
+  margin-bottom: var(--space-4);
+  font-size: 1.2rem;
+}
 
-.data-table { width: 100%; border-collapse: collapse; }
-.data-table th, .data-table td {
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.data-table th,
+.data-table td {
   padding: var(--space-3) var(--space-4);
   text-align: left;
   border-bottom: 1px solid var(--border-color);
 }
-.data-table th { background: var(--bg-gray); color: var(--text-muted); font-weight: 600; font-size: 0.9rem; }
-.data-table td { color: var(--text-main); font-size: 0.95rem; }
+.data-table th {
+  background: var(--bg-gray);
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.data-table td {
+  color: var(--text-main);
+  font-size: 0.95rem;
+}
 
 .status-badge {
   background: rgba(46, 204, 113, 0.1);

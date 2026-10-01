@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import Navbar from '@/components/app/Navbar.vue';
-import Breadcrumb from '@/components/app/Breadcrumb.vue';
+import Navbar from '@/components/app/Navbar.vue'
+import Breadcrumb from '@/components/app/Breadcrumb.vue'
 </script>
 
 <template>
@@ -47,7 +47,9 @@ import Breadcrumb from '@/components/app/Breadcrumb.vue';
 /* Page Transitions */
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity var(--transition-normal), transform var(--transition-normal);
+  transition:
+    opacity var(--transition-normal),
+    transform var(--transition-normal);
 }
 
 .fade-enter-from {
