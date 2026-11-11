@@ -1,0 +1,7 @@
+[
+  {"id":"1","title":"Vue 3 Composition API Deep Dive","cat":"Workshop","date":"Nov 15, 2026 • 09:00 AM","loc":"Telkom University, Gedung Tokong Nanas Lt. 3","quota":45,"desc":"Hands-on workshop building enterprise applications using Vue 3, Composition API, and modern state management patterns.","done":false},
+  {"id":"2","title":"Bandung Tech Meetup The Future of AI in Web Development","cat":"Meetup","date":"Nov 20, 2026 • 01:30 PM","loc":"Bandung Digital Valley, Jl. Gegerkalong Hilir","quota":80,"desc":"Casual networking and tech talk about incorporating generative AI agents directly into frontend workflows.","done":false},
+  {"id":"3","title":"National UI/UX Design Hackathon 2026","cat":"Competition","date":"Nov 28, 2026 • 08:00 AM","loc":"Auditorium Damar Telkom University","quota":120,"desc":"Compete with top student designers across Indonesia to design inclusive accessibility-first digital products in 24 hours.","done":false},
+  {"id":"4","title":"Modern Frontend Architecture & Micro-Frontends","cat":"Seminar","date":"Dec 05, 2026 • 10:00 AM","loc":"Online via Zoom Webinar","quota":250,"desc":"Learn how tech companies scale large frontend codebases cleanly using modular component architecture and micro-services.","done":false},
+  {"id":"5","title":"Cloud Native & DevOps Summit 2026","cat":"Conference","date":"Dec 12, 2026 • 08:30 AM","loc":"Grand Ballroom Pullman Hotel Bandung","quota":15,"desc":"Annual gathering of system architects, DevOps engineers, and cloud infrastructure specialists sharing enterprise war stories.","done":false}
+]
